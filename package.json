@@ -1,5 +1,5 @@
 {
-  "name": "lamejs-node",
+  "name": "iso-lamejs",
   "version": "1.2.0",
   "description": "Pure JavaScript MP3 Encoder",
   "main": "src/js/index.js",
@@ -23,13 +23,13 @@
   "author": "Alex Zhukov",
   "contributors": [
     "Dean Slama Jr"
-  ]
+  ],
   "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/deanslamajr/lamejs/issues"
   },
   "homepage": "https://github.com/deanslamajr/lamejs#readme",
-  "dependencies": {
+  "devDependencies": {
     "use-strict": "1.0.1"
   }
 }
