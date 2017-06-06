@@ -1,18 +1,14 @@
-# lamejs
+# iso-lamejs
 Fast mp3 encoder written in JavaScript.
 On my machine it works 20x faster than realtime (it will encode 132 second long sample in 6.5 seconds) both on node and chrome.
 lamejs is a rewrite of jump3r-code which is a rewrite of libmp3lame.
 
 ## Installation
 
-To install via Bower or npm, simply do the following:
+To use on the frontend, install via npm:
 
 ```bash
-$ bower install lamejs --save
-```
-
-```bash
-$ npm install lamejs
+$ npm install iso-lamejs
 ```
 
 # Quick Start
@@ -40,21 +36,21 @@ console.debug(mp3Data);
 </script>
 ```
 
-To use lamejs in Node.js build, you can install it from `npm`:
+To use iso-lamejs in Node.js build, you can install it from `npm`:
 
 ```
-npm install lamejs
+npm install iso-lamejs
 ```
 
 Then use it:
 
 ```
-var lamejs = require("lamejs");
+var lamejs = require("iso-lamejs");
 ```
 
 # Real Example
 
-Either see [example.html](https://github.com/zhuker/lamejs/blob/master/example.html) for full example of wav file encoding in browser or use this:
+Either see [example.html](https://github.com/deanslamajr/lamejs/blob/master/example.html) for full example of wav file encoding in browser or use this:
 
 ```javascript
 <script src='lame.all.js'></script>
